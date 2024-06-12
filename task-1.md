@@ -7,7 +7,8 @@ select title, description from film;
 ```
 ---
 -- 2: film tablosunda bulunan tüm sütunlardaki verileri film uzunluðu (length) 60 dan büyük VE 75 ten küçük olma koþullarýyla sýralayýnýz.
-```select * from film
+```
+select * from film
 where length > 60 and length < 75;
 ```
 ---
